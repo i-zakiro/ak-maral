@@ -417,13 +417,17 @@
 		}
 		//loadCSS("libs/animate/animate.css"); //Load Libs CSS: Animate CSS
 		//loadCSS("_header.css");              //Header Styles (compress & paste to header after release)
-		loadCSS("_main.css");                //User Styles: Main
-		loadCSS("_media.css");               //User Styles: Media
+
+
+
+		//I USE ONLY THIS 2 CSS FILES
+		//loadCSS("_main.css");                //User Styles: Main
+		//loadCSS("_media.css");               //User Styles: Media
 	</script>
 
 	<!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
 	<script>var ms=document.createElement("link");ms.rel="stylesheet";
-		// ms.href="compiled.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
+		ms.href="compiled.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
 	</script>
 
 	<!-- add camera slider scripts  add camera slider scripts  add camera slider scripts  add camera slider scripts   -->
